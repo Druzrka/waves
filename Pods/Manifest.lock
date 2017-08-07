@@ -1,0 +1,21 @@
+PODS:
+  - AKMaskField (2.0.3)
+  - Alamofire (4.5.0)
+  - IQKeyboardManagerSwift (4.0.10)
+  - SinchVerification-Swift (2.0.4)
+
+DEPENDENCIES:
+  - AKMaskField
+  - Alamofire (~> 4.5.0)
+  - IQKeyboardManagerSwift (= 4.0.10)
+  - SinchVerification-Swift
+
+SPEC CHECKSUMS:
+  AKMaskField: b6d147524813e62cd3f15475fa2200ce7a3d2620
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  IQKeyboardManagerSwift: 75ba21a23794a1e6b6fe6d9a267ea17f80e06771
+  SinchVerification-Swift: e74bb3c09c3e02e6711d1e962ac56ae0239dabe0
+
+PODFILE CHECKSUM: 749b9fac75a7e24d228c87d6cbe32f34ab8ec23d
+
+COCOAPODS: 1.2.1
