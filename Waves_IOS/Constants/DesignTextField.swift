@@ -20,5 +20,4 @@ class DesignTextField: UITextField {
     func changePlaceholderColor() {
         attributedPlaceholder = NSAttributedString(string: placeholder!, attributes: [NSForegroundColorAttributeName : tintColor, NSFontAttributeName: UIFont(name: "MyriadPro-Regular", size: placeHolderFontSize)!])
     }
-
 }

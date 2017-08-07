@@ -79,7 +79,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ЛОГО" translatesAutoresizingMaskIntoConstraints="NO" id="ITs-2n-oNp">
-                                <rect key="frame" x="130.66666666666669" y="188" width="153.00000000000006" height="52"/>
+                                <rect key="frame" x="131" y="188" width="153" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="153" id="M6H-LT-oz1"/>
                                     <constraint firstAttribute="height" constant="52" id="TJq-w5-D1T"/>
@@ -171,7 +171,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Регистрация" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9s-wb-FTR">
-                                <rect key="frame" x="147" y="114" width="120.33333333333331" height="22"/>
+                                <rect key="frame" x="147" y="114" width="121" height="22"/>
                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="22"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -443,20 +443,20 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Регистрация" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMV-Tr-fCN">
-                                <rect key="frame" x="147" y="114" width="120.33333333333331" height="22"/>
+                                <rect key="frame" x="147" y="114" width="121" height="22"/>
                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="22"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SuccessRegImage" translatesAutoresizingMaskIntoConstraints="NO" id="e0Z-tD-wXH">
-                                <rect key="frame" x="97" y="301.66666666666669" width="220" height="133"/>
+                                <rect key="frame" x="97" y="302" width="220" height="133"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="133" id="h7q-ak-ctm"/>
                                     <constraint firstAttribute="width" constant="220" id="yX8-gq-bvp"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4Q-qk-U54">
-                                <rect key="frame" x="182" y="454.66666666666669" width="50" height="29"/>
+                                <rect key="frame" x="182" y="455" width="50" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="AUk-j6-JCN"/>
                                     <constraint firstAttribute="height" constant="29" id="W15-rb-C0K"/>
@@ -537,7 +537,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBg-jQ-c25">
-                                <rect key="frame" x="92.666666666666686" y="185" width="229" height="56"/>
+                                <rect key="frame" x="93" y="185" width="229" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="F5s-9c-ZgK"/>
                                     <constraint firstAttribute="width" constant="229" id="NWI-NW-F77"/>
@@ -556,7 +556,7 @@
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Обучение" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ddr-1a-tDY">
-                                <rect key="frame" x="92.666666666666686" y="249" width="229" height="30"/>
+                                <rect key="frame" x="93" y="249" width="229" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="6Nc-KG-8es"/>
                                     <constraint firstAttribute="width" constant="229" id="XbX-ek-Uka"/>
@@ -566,7 +566,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Закончить ВУЗ" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x9n-h8-dbY">
-                                <rect key="frame" x="92.666666666666686" y="340" width="229" height="30"/>
+                                <rect key="frame" x="93" y="340" width="229" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="229" id="Spw-TY-Hbj"/>
                                     <constraint firstAttribute="height" constant="30" id="mzt-5U-zsJ"/>
@@ -576,7 +576,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Цель" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2b4-k4-Cop">
-                                <rect key="frame" x="92.666666666666686" y="303" width="229" height="29"/>
+                                <rect key="frame" x="93" y="303" width="229" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="Ab8-sf-5Ee"/>
                                     <constraint firstAttribute="width" constant="229" id="MJc-vE-22l"/>
@@ -600,7 +600,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ryi-Nf-oqZ">
-                                <rect key="frame" x="92.666666666666686" y="492" width="229" height="21"/>
+                                <rect key="frame" x="93" y="492" width="229" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="WWH-HK-bfx"/>
                                     <constraint firstAttribute="width" constant="229" id="g5g-m1-Fzz"/>
@@ -1636,14 +1636,14 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ЛОГО" translatesAutoresizingMaskIntoConstraints="NO" id="RA7-Iq-7Hy">
-                                <rect key="frame" x="130.66666666666669" y="10" width="153.00000000000006" height="52"/>
+                                <rect key="frame" x="131" y="10" width="153" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="153" id="Yp2-fW-gma"/>
                                     <constraint firstAttribute="height" constant="52" id="zty-nq-iHm"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Личный кабинет" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgY-mv-oct">
-                                <rect key="frame" x="117.66666666666669" y="90" width="179" height="34"/>
+                                <rect key="frame" x="118" y="90" width="179" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="179" id="Au8-Qq-mkk"/>
                                     <constraint firstAttribute="height" constant="34" id="hgY-OH-64K"/>
@@ -2019,7 +2019,7 @@
                                         <rect key="frame" x="0.0" y="28" width="288" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IuX-aO-K4x" id="xgk-m7-GPG">
-                                            <rect key="frame" x="0.0" y="0.0" width="288" height="59.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="288" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Иванов Иван" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwJ-1V-mqO">
