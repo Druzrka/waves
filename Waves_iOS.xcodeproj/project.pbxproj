@@ -33,6 +33,8 @@
 		A56B702B1F0F996700BF0B20 /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A56B702A1F0F988500BF0B20 /* MyriadPro-Regular.otf */; };
 		A56B702D1F0F9ED600BF0B20 /* UsersAreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56B702C1F0F9ED600BF0B20 /* UsersAreementViewController.swift */; };
 		A5893ECE1F1A52FF00FF7F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5893ECD1F1A52FF00FF7F96 /* LaunchScreen.storyboard */; };
+		A59815E41F38894200201F33 /* MemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59815E21F38894200201F33 /* MemberTableViewCell.swift */; };
+		A59815E51F38894200201F33 /* MemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59815E31F38894200201F33 /* MemberTableViewCell.xib */; };
 		A5B25F0F1F289CB400F92CCF /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B25F0E1F289CB400F92CCF /* Tasks.swift */; };
 		A5CB4DBA1F1E16AF0062A462 /* ChooseGoalScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB4DB91F1E16AF0062A462 /* ChooseGoalScreenViewController.swift */; };
 		A5CB4DBC1F1E18FB0062A462 /* CategoriesOfGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB4DBB1F1E18FB0062A462 /* CategoriesOfGoals.swift */; };
@@ -73,6 +75,8 @@
 		A56B702A1F0F988500BF0B20 /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Regular.otf"; path = "../Waves_IOS/Fonts/MyriadPro-Regular.otf"; sourceTree = "<group>"; };
 		A56B702C1F0F9ED600BF0B20 /* UsersAreementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersAreementViewController.swift; path = ../Waves_IOS/Controllers/UsersAreementViewController.swift; sourceTree = "<group>"; };
 		A5893ECD1F1A52FF00FF7F96 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A59815E21F38894200201F33 /* MemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberTableViewCell.swift; sourceTree = "<group>"; };
+		A59815E31F38894200201F33 /* MemberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemberTableViewCell.xib; sourceTree = "<group>"; };
 		A5B25F0E1F289CB400F92CCF /* Tasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tasks.swift; path = Waves_IOS/Constants/Tasks.swift; sourceTree = SOURCE_ROOT; };
 		A5CB4DB91F1E16AF0062A462 /* ChooseGoalScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseGoalScreenViewController.swift; path = ../Waves_IOS/Controllers/ChooseGoalScreenViewController.swift; sourceTree = "<group>"; };
 		A5CB4DBB1F1E18FB0062A462 /* CategoriesOfGoals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesOfGoals.swift; path = ../Waves_IOS/Constants/CategoriesOfGoals.swift; sourceTree = "<group>"; };
@@ -150,6 +154,8 @@
 				A513FB711F3856010082AA94 /* TableViewCell.xib */,
 				A513FB741F3859040082AA94 /* TableViewCellWithSwitch.swift */,
 				A513FB751F3859040082AA94 /* TableViewCellWithSwitch.xib */,
+				A59815E21F38894200201F33 /* MemberTableViewCell.swift */,
+				A59815E31F38894200201F33 /* MemberTableViewCell.xib */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A56B702B1F0F996700BF0B20 /* MyriadPro-Regular.otf in Resources */,
+				A59815E51F38894200201F33 /* MemberTableViewCell.xib in Resources */,
 				A513FB731F3856010082AA94 /* TableViewCell.xib in Resources */,
 				04F6E0B31F056E7100DA708B /* Assets.xcassets in Resources */,
 				A5893ECE1F1A52FF00FF7F96 /* LaunchScreen.storyboard in Resources */,
@@ -332,6 +339,7 @@
 				04F6E0AE1F056E7100DA708B /* ViewController.swift in Sources */,
 				A5CB4DBC1F1E18FB0062A462 /* CategoriesOfGoals.swift in Sources */,
 				A5EE33FC1F261907000C0129 /* ThirdViewController.swift in Sources */,
+				A59815E41F38894200201F33 /* MemberTableViewCell.swift in Sources */,
 				A5CB4DBA1F1E16AF0062A462 /* ChooseGoalScreenViewController.swift in Sources */,
 				A50F362D1F335266003AABE8 /* DesignTextField.swift in Sources */,
 				A51322911F31C8640037393E /* CategoryPicker.swift in Sources */,

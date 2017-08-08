@@ -29,6 +29,8 @@ class SuccessRegistrationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(User.shared.token)
+        
         if action == "sign in" {
             actionLabel.text! = "Вход"
             celebrateImage.image = #imageLiteral(resourceName: "successSignInImage")

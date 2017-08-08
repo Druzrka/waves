@@ -14,7 +14,7 @@ class SecondViewController: UIViewController {
     var numberOfBoreders = 4
     var startBorders = [1, 0, 0, 0, 0]
     var endBorders = [0, 0, 0, 0, 0]
-    var sumNumbers = [5,25,125,625,3125,15625,78125,390625]
+    var sumNumbers = [5,25,125,625,3125,15625,78125,390625,1953125] // and target of saving
     
     @IBOutlet weak var balanceLabel: UILabel!
     @IBOutlet weak var scrollViewForWaves: UIScrollView!
@@ -241,38 +241,65 @@ extension SecondViewController {
         if segue.identifier == "From First Wave Screen To Members Screen" {
             if let destination = segue.destination as? MembersViewController {
                 destination.waveNumber = 1
+                destination.wave = firstWave.image!
+                destination.widthOfWave = firstWave.frame.size.width
+                destination.targetOfSaving = sumNumbers[0]
             }
         } else if segue.identifier == "From Second Wave Screen To Members Screen" {
             if let destination = segue.destination as? MembersViewController {
                 destination.waveNumber = 2
+                destination.wave = secondWave.image!
+                destination.widthOfWave = secondWave.frame.size.width
+                destination.targetOfSaving = sumNumbers[1]
             }
         } else if segue.identifier == "From Third Wave Screen To Members Screen" {
             if let destination = segue.destination as? MembersViewController {
                 destination.waveNumber = 3
+                destination.wave = thirdWave.image!
+                destination.widthOfWave = thirdWave.frame.size.width
+                destination.targetOfSaving = sumNumbers[2]
             }
         } else if segue.identifier == "From Fourth Wave Screen To Members Screen" {
             if let destination = segue.destination as? MembersViewController {
                 destination.waveNumber = 4
+                destination.wave = fourthWave.image!
+                destination.widthOfWave = fourthWave.frame.size.width
+                destination.targetOfSaving = sumNumbers[3]
             }
         } else if segue.identifier == "From Fifth Wave Screen To Members Screen" {
             if let destination = segue.destination as? MembersViewController {
                 destination.waveNumber = 5
+                destination.wave = fifthWave.image!
+                destination.widthOfWave = fifthWave.frame.size.width
+                destination.targetOfSaving = sumNumbers[4]
             }
         } else if segue.identifier == "From Sixth Wave Screen To Members Screen" {
             if let destination = segue.destination as? MembersViewController {
                 destination.waveNumber = 6
+                destination.wave = sixthWave.image!
+                destination.widthOfWave = sixthWave.frame.size.width
+                destination.targetOfSaving = sumNumbers[5]
             }
         } else if segue.identifier == "From Seventh Wave Screen To Members Screen" {
             if let destination = segue.destination as? MembersViewController {
                 destination.waveNumber = 7
+                destination.wave = seventhWave.image!
+                destination.widthOfWave = seventhWave.frame.size.width
+                destination.targetOfSaving = sumNumbers[6]
             }
         } else if segue.identifier == "From Eighth Wave Screen To Members Screen" {
             if let destination = segue.destination as? MembersViewController {
                 destination.waveNumber = 8
+                destination.wave = eighthWave.image!
+                destination.widthOfWave = eighthWave.frame.size.width
+                destination.targetOfSaving = sumNumbers[7]
             }
         } else if segue.identifier == "From Ninth Wave Screen To Members Screen" {
             if let destination = segue.destination as? MembersViewController {
                 destination.waveNumber = 9
+                destination.wave = ninthWave.image!
+                destination.widthOfWave = ninthWave.frame.size.width
+                destination.targetOfSaving = sumNumbers[8]
             }
         }
     }
